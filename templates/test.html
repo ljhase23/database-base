@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+	<meta charset="UTF-8">
+	{% if title %}
+	<title>{{ title }}</title>
+	{% else %}
+	<title>Default Title</title>
+	{% endif %}
+</head>
+<body>
+<!-- 해당 부분에 html 코드 작성 -->
+<h1>Hello Flask</h1>
+<p>This page is for Flask Index page.</p>
+<!-- Jinja2를 이용한 표현식 예제 -->
+<p>Bind text: {{ text }}</p>
+
+</body>
+</html>
